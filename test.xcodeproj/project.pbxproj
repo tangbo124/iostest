@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC02365B1949857F00C3B5D0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC02365A1949857F00C3B5D0 /* RootViewController.m */; };
 		BC3022A3192F65E900D4756F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3022A2192F65E900D4756F /* Foundation.framework */; };
 		BC3022A5192F65E900D4756F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3022A4192F65E900D4756F /* CoreGraphics.framework */; };
 		BC3022A7192F65E900D4756F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3022A6192F65E900D4756F /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC0236591949857F00C3B5D0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BC02365A1949857F00C3B5D0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		BC30229F192F65E900D4756F /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3022A2192F65E900D4756F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC3022A4192F65E900D4756F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				BC3022B4192F65E900D4756F /* Main.storyboard */,
 				BC3022B7192F65E900D4756F /* ViewController.h */,
 				BC3022B8192F65E900D4756F /* ViewController.m */,
+				BC0236591949857F00C3B5D0 /* RootViewController.h */,
+				BC02365A1949857F00C3B5D0 /* RootViewController.m */,
 				BC3022BA192F65E900D4756F /* Images.xcassets */,
 				BC3022A9192F65E900D4756F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				BC3022B9192F65E900D4756F /* ViewController.m in Sources */,
 				BC3022B3192F65E900D4756F /* AppDelegate.m in Sources */,
+				BC02365B1949857F00C3B5D0 /* RootViewController.m in Sources */,
 				BC3022AF192F65E900D4756F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
