@@ -35,7 +35,7 @@
 {
     static int a = 0;
     a ++;
-    NSLog(@"aaa");
+    NSLog(@"bbb");
     NSLog(@"%d", a);
 }
 
